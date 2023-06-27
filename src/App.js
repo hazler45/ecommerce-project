@@ -1,8 +1,17 @@
 import './App.css';
+import DisplayCard from './components/Cards/DisplayCard';
+import Header from './components/Header/Header';
+import Home from './pages/Home/Home';
 
 function App() {
   return (
-    <div className='text-red-600'>hi</div>
+    <>
+
+    
+    <Home></Home>   
+    <DisplayCard/>
+      
+    </>
   );
 }
 
